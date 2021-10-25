@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Libro_v1</title>`
+
+     <!-- jQuery -->
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+     <!-- Mis estilos para el gafette -->
+	<style>
+		.gafete-contenedor {
+
+		}
+		.gafete-imagen {
+		  float: left;
+		  padding-right: 30px;
+		  padding-left: 5px;  
+		}
+		.gafete-datos {
+		  float: left; 
+		  padding-right: 30px;
+		}
+		.gafete2-contenedor {
+		  border: 5px outset red;
+		  background-color: lightblue;
+		  text-align: center; 
+		}
+		.gafete2-datos {  
+		  padding-top: 50px;
+		  padding-right: 30px;
+		  padding-bottom: 50px;
+		  padding-left: 80px;  
+		  float: left;
+		  width: 75%;  
+		}
+	</style>
+	 
+	 
+     <!-- Tableau Extensions API Library  -->
+     <!-- library is in the /lib directory -->
+     <script src="../../lib/tableau.extensions.1.latest.js"></script>
+
+     <!-- Your JavaScript code that uses the Extensions API goes here -->
+     <script src="./libro_rep_doctos_v1.js"></script>
+     </head>
+     <body>
+<div class="gafete-contenedor">
+
+	<div class="gafete-imagen">
+		<a href="https://apexqa.izzi.mx:9091/ords/edw/r/info_general_tab/entidad?par_codigo=TAB_CALIDAD_NOT_DONE" target="bii">
+			<img src="./libro_64x64b.png" alt="Librito" name="Nombre de la imagen" title="Documentación del tablero"/>
+		</a>
+	</div>
+
+	<div class="gafete-datos">
+		Propietario(a) v1:</br>
+        <span  style="color:blue">Estos son los propietarios</span>
+	</div>
+	<div class="gafete-datos">
+		Soporte v1:</br>
+        <span  style="color:blue">Estos son los usuarios de soporte</span>
+	</div>
+</div>
+</body>
+ </html>
+ 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Settings Sample</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script> -->
+
+    <!-- Extensions Library (this will be hosted on a CDN eventually) -->
+    <script src="../../lib/tableau.extensions.1.latest.js"></script>
+
+    <!-- Our extension's code -->
+    <script src="./libro_ligaApex_cfg.js"></script>
+  </head>
+  
+  <body>
+    <div class="divtrace" style="display: none;">  
+	<p><span id="mytracecfg"><b>Trace</b></span>	</p>
+    <hr />
+    </div>
+
+    <div class="container">
+      <h4>Documentación de Tableau</h4>
+      <p>Parámetros.</p>
+      <hr />
+      <h5>Código del tablero:</h5>
+      <input style="margin-left: 14px; width: 80%" type="string" id="parDiagCodigoTablero" name="tablero">
+      <hr />
+      <button id="aceptarBoton">Aceptar</button>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Configuracion</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script> -->
+
+    <!-- Extensions Library (this will be hosted on a CDN eventually) -->
+    <script src="../../lib/tableau.extensions.1.latest.js"></script>
+
+    <!-- Our extension's code -->
+    <script src="./libro_cnx_man_cfg.js"></script>
+  </head>
+  
+  <body>
+    <div class="divtrace" style="display: none;">  
+	<p><span id="mytracecfg"><b>Trace</b></span>	</p>
+    <hr />
+    </div>
+
+    <div class="container">
+      <h4>Documentación de Tableau (Parámetros)</h4>
+      <hr />
+
+		<label for="parDiagCodigoTablero">Código de tablero</label> </br>
+		<input type="text" id="parDiagCodigoTablero" style="font-size:12px;width:80%;margin:-3px"  name="tablero" value="" />
+        </br>
+        </br>
+		<label for="parDiagOwners">Propietario(a):</label> </br>
+		<textarea id="parDiagOwners" name="propietarios" cols="40" rows="5"></textarea>
+        </br>
+        </br>
+		<label for="parDiagSoporte">Soporte:</label> </br>
+		<textarea id="parDiagSoporte" name="soporte" cols="40" rows="5"></textarea>
+        </br>
+        </br>
+      <!-- <input style="margin-left: 14px; width: 80%" type="string" id="parDiagCodigoTablero" name="tablero"> -->
+      <!-- <h5>Propietarios:</h5> -->
+      <!-- <input style="margin-left: 14px; width: 80%" type="string" id="parDiagOwners" name="propietarios"> -->
+      <!-- <h5>Soporte:</h5>	   -->
+      <!-- <input style="margin-left: 14px; width: 80%" type="string" id="parDiagSoporte" name="soporte"> -->	  
+      <hr />
+      <button id="aceptarBoton">Aceptar</button>
+    </div>
+  </body>
+</html>
+

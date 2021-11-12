@@ -6,8 +6,8 @@ Funciones para presentar el LIBRO que liga la documentaicón de Tableau
 
 // Función que contiene todo el codigo
 (function () {
-	const C_LIGAAPEXREPODOCTOS = 'https://apexqa.izzi.mx:9091/ords/edw/r/info_general_tab/entidad?par_codigo=';
-	//const C_LIGAAPEXREPODOCTOS = 'https://hlozsi9l4od21gp-mibasedatos01.adb.us-phoenix-1.oraclecloudapps.com/ords/r/miapex01/info_general_tab/entidad?par_codigo=';
+	//const C_LIGAAPEXREPODOCTOS = 'https://apexqa.izzi.mx:9091/ords/edw/r/info_general_tab/entidad?par_codigo=';
+	const C_LIGAAPEXREPODOCTOS = 'https://hlozsi9l4od21gp-mibasedatos01.adb.us-phoenix-1.oraclecloudapps.com/ords/r/miapex01/info_general_tab/entidad?par_codigo=';
 	const C_LIGA_CFG              = './libro_cnx_man_cfg.html';
 	const C_CODIGO_SIN_INFO       = 'SIN_INFORMACION';
 	const C_NO_DEFINIDO           = 'No definido';

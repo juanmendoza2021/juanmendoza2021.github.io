@@ -3,13 +3,13 @@
 }
 .gafete-imagen {
   float: left;
-  padding-right: 30px;
+  padding-right: 5px;
   padding-left: 5px;  
   font-size:10px;
 }
 .gafete-datos {
   float: left; 
-  padding-right: 30px;
+  padding-right: 10px;
   font-size:10px;
 }
 .gafete-imagenlibro {

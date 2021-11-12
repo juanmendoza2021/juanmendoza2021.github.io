@@ -5,21 +5,15 @@
   float: left;
   padding-right: 30px;
   padding-left: 5px;  
+  font-size:10px;
 }
 .gafete-datos {
   float: left; 
   padding-right: 30px;
+  font-size:10px;
 }
-.gafete2-contenedor {
-  border: 5px outset red;
-  background-color: lightblue;
-  text-align: center; 
+.gafete-imagenlibro {
+	width: 80%;
+	height: 80%;
 }
-.gafete2-datos {  
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;  
-  float: left;
-  width: 75%;  
-}
+

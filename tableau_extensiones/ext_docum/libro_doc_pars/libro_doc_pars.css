@@ -1,0 +1,30 @@
+body {
+	/* background-color: PapayaWhip; */
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0;
+}
+div {
+	/* background-color: powderblue; */
+	padding-top: none;
+	padding-bottom: none;
+	margin: 0;
+}
+.gafete-contenedor {
+
+}
+.gafete-imagen {
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;  
+  font-size:10px;
+}
+.gafete-datos {
+  float: left; 
+  padding-right: 10px;
+  font-size:10px;
+}
+.gafete-imagenlibro {
+	width: 80%;
+	height: 80%;
+}

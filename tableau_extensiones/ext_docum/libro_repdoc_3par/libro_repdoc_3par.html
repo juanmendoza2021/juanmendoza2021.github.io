@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+     <title>Documentacion BI</title>
+
+     <!-- jQuery -->
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+     <!-- Bootstrap -->
+     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > -->
+     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script> -->
+
+     <!-- Mis estilos para el gafette -->
+	 <!-- <style src="src=./libro_repdoc_3par.css"></style> -->
+     <link rel="stylesheet" type="text/css" href="./libro_repdoc_3par.css">
+
+     <!-- Tableau Extensions API Library  -->
+     <!-- library is in the /lib directory -->
+     <script src="../../lib/tableau.extensions.1.latest.js"></script>
+
+     <!-- Your JavaScript code that uses the Extensions API goes here -->
+     <script src="./libro_repdoc_3par.js"></script>
+</head>
+
+<body>
+	<div id="gafete-instruccion">
+		<span id="gafete-mensaje-espera" style="color:blue">Un momento .....</span>
+		<span id="gafete-mensaje-resultado" style="color:red"></span>
+	</div>
+	<div  style="display: none;">
+		<p><span id="mytrace"><b>Trace</b></span></p>
+		<hr />
+	</div>	
+	<div class="gafete-contenedor"  style="display: none;">
+		<div class="gafete-imagen" >
+			<a id="gafete-ligadinamicalibro" href="" target="bii">
+			<img src="./libro_64x64.png" alt="Librito" name="Nombre de la imagen" title="Documentación del tablero"/>
+			</a>
+		</div>
+		<div class="gafete-datos">
+			Propietario(a):</br>
+			<span id="gafete-propietarios"  style="color:blue">Estos son los propietarios</span>
+		</div>
+		<div class="gafete-datos">
+			Soporte:</br>
+			<span id="gafete-soporteadores"  style="color:blue">Estos son los usuarios de soporte</span>
+		</div>
+	</div>
+</body>
+</html>
+
